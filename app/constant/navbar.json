@@ -1,0 +1,24 @@
+{
+    "menuItems": [
+      {
+        "name": "Vacancies",
+        "link": "#"
+      },
+      {
+        "name": "About us",
+        "link": "#"
+      },
+      {
+        "name": "How we work",
+        "link": "#"
+      },
+      {
+        "name": "Resources",
+        "link": "#"
+      },
+      {
+        "name": "Contact us",
+        "link": "#"
+      }
+    ]
+  } 
