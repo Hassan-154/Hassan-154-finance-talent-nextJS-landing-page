@@ -1,24 +1,24 @@
 {
     "menuItems": [
       {
-        "name": "Vacancies",
-        "link": "#"
-      },
-      {
-        "name": "About us",
-        "link": "#"
+        "name": "Home",
+        "link": "#home"
       },
       {
         "name": "How we work",
-        "link": "#"
+        "link": "#how-it-works"
       },
       {
-        "name": "Resources",
-        "link": "#"
+        "name": "Features",
+        "link": "#features"
+      },
+      {
+        "name": "About us",
+        "link": "#about"
       },
       {
         "name": "Contact us",
-        "link": "#"
+        "link": "#contact"
       }
     ]
   } 

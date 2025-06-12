@@ -6,10 +6,16 @@ import Features from "./components/Features";
 
 export default function page() {
   return (
-    <div className="">
-      <Home/>
-      <HowItWorks/>
-      <Features/>
-    </div>
+    <main className="scroll-smooth">
+      <section id="home">
+        <Home/>
+      </section>
+      <section id="how-it-works">
+        <HowItWorks/>
+      </section>
+      <section id="features">
+        <Features/>
+      </section>
+    </main>
   );
 }
