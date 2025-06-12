@@ -38,8 +38,8 @@ const NavBar = () => {
           {/* Buttons - Shared HTML for both desktop and mobile */}
           <div className={`${isOpen ? 'max-h-screen opacity-100 translate-y-0 border-b border-[#E2E8F0] lg:border-none' : 'max-h-0 opacity-0 -translate-y-4'} lg:max-h-none lg:opacity-100 lg:translate-y-0 lg:flex lg:items-center lg:space-x-3 absolute lg:relative top-60 lg:top-0 left-0 lg:left-auto w-full lg:w-auto bg-white lg:bg-transparent pt-4 lg:pt-0 pb-6 lg:pb-0 px-5 lg:px-0 z-50 lg:z-auto overflow-hidden lg:overflow-visible transition-all duration-300 ease-in-out`}>
             <div className="flex flex-col lg:flex-row lg:items-center space-y-3 lg:space-y-0 lg:space-x-3">
-              <Button title="Submit CV" className="bg-slate-light text-black" />
-              <Button title="Find Your next Hire" className="bg-periwinkle-blue text-white" />
+              <Button title="Submit CV" className="bg-slate-light text-black rounded-md" />
+              <Button title="Find Your next Hire" className="bg-periwinkle-blue text-white rounded-md" />
             </div>
           </div>
 

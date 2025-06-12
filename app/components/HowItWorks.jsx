@@ -1,0 +1,37 @@
+import React from 'react'
+import Button from './Button'
+import HowItWorksData from '../constant/howItWorks.json'
+import Image from 'next/image'
+
+function HowItWorks() {
+    return (
+        <div className='bg-[#E2E8F0] py-[40px] md:py-[80px] px-3 sm:px-4 xl:px-0'>
+            <div className='max-w-6xl mx-auto'>
+                <div className='pb-1'><span>How It Works</span></div>
+                <div className='flex flex-col gap-5 sm:flex-row justify-between sm:items-end'>
+                    <h3 className='text-[28px] leading-[35px] sm:text-[43px] sm:leading-[49px] text-black font-semibold'>
+                        What to <span className='text-periwinkle-blue font-roslindale italic'>Expect</span> When <br></br> You Join R2C</h3>
+                    <div className='flex gap-3'>
+                        <Button title="For Candidates" className="bg-periwinkle-blue text-white rounded-full" />
+                        <Button title="For Recruiters" className="bg-white text-black rounded-full" />
+                    </div>
+                </div>
+                <div>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-10'>
+                        {HowItWorksData.map((item, index) => (
+                            <div key={index} className='bg-white p-5 rounded-lg shadow-md relative'>
+                                <Image src={item.image} alt={item.heading} className='mb-4 w-full h-[170px] object-contain z-0 relative' width={300} height={300} />
+                                <div className='mb-0.5 bg-gradient-to-t from-[#ffffff] -mt-[140px] pt-[140px] z-10 relative'>
+                                    <h4 className='text-md sm:text-lg font-semibold text-black'>{item.heading}</h4>
+                                    <p className='lg:max-w-[220px]'>{item.paragraph}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default HowItWorks
