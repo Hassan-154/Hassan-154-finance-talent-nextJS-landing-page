@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import HowItWorks from "./components/HowItWorks";
 import Features from "./components/Features";
 import WhatWeDo from "./components/WhatWeDo";
+import Contact from "./components/Contact";
 
 export default function page() {
   return (
@@ -14,11 +15,14 @@ export default function page() {
       <section id="how-it-works">
         <HowItWorks/>
       </section>
-      <section id="">
+      <section id="resources">
         <WhatWeDo/>
       </section>
       <section id="features">
         <Features/>
+      </section>
+      <section id="contact">
+        <Contact/>
       </section>
     </main>
   );

@@ -97,6 +97,7 @@ html {
   --color-slate-light: #E2E8F0;
   --color-charcoal-blue: #45556C;
   --color-space-blue: #1D293D;
+  --color-indigo-blue: #615FFF;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -113,6 +114,7 @@ body {
   font-family: 'SF Pro Display';
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+  overflow-x: hidden !important;
 }
 
 *{
