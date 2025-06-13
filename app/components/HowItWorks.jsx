@@ -9,8 +9,8 @@ function HowItWorks() {
             <div className='max-w-6xl mx-auto'>
                 <div className='pb-1'><span>How It Works</span></div>
                 <div className='flex flex-col gap-5 sm:flex-row justify-between sm:items-end'>
-                    <h3 className='text-[28px] leading-[35px] sm:text-[43px] sm:leading-[49px] text-black font-semibold'>
-                        What to <span className='text-periwinkle-blue font-roslindale italic'>Expect</span> When <br></br> You Join R2C</h3>
+                    <h3 className='max-w-[450px] text-[28px] leading-[35px] sm:text-[43px] sm:leading-[49px] text-black font-semibold'>
+                        What to <span className='text-periwinkle-blue font-roslindale italic'>Expect</span> When You Join R2C</h3>
                     <div className='flex gap-3'>
                         <Button title="For Candidates" className="bg-periwinkle-blue text-white rounded-full" />
                         <Button title="For Recruiters" className="bg-white text-black rounded-full" />

@@ -3,6 +3,7 @@ import NavBar from "./components/Navbar";
 import Home from "./components/Home";
 import HowItWorks from "./components/HowItWorks";
 import Features from "./components/Features";
+import WhatWeDo from "./components/WhatWeDo";
 
 export default function page() {
   return (
@@ -12,6 +13,9 @@ export default function page() {
       </section>
       <section id="how-it-works">
         <HowItWorks/>
+      </section>
+      <section id="">
+        <WhatWeDo/>
       </section>
       <section id="features">
         <Features/>

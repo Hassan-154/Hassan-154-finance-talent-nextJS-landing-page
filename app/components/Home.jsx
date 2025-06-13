@@ -1,8 +1,6 @@
 import React from 'react'
 import Button from './Button'
 import Image from 'next/image'
-import ProfileCard from './ProfileCard'
-import AccountChat from './AccountChat'
 
 function Home() {
     return (

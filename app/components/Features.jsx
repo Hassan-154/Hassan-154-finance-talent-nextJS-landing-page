@@ -7,8 +7,8 @@ function Features() {
         <div className='bg-[#E2E8F0] py-[40px] md:py-[80px] px-3 sm:px-4 xl:px-0'>
             <div className='max-w-6xl mx-auto'>
                 <div className='pb-1'><span>Features</span></div>
-                <h3 className='text-[28px] leading-[35px] sm:text-[43px] sm:leading-[49px] text-black font-semibold'>
-                    Powerful<span className='text-periwinkle-blue font-roslindale italic'> Features</span>, Built <br></br> for Finance Recruitment</h3>
+                <h3 className='max-w-[500px] text-[28px] leading-[35px] sm:text-[43px] sm:leading-[49px] text-black font-semibold'>
+                    Powerful<span className='text-periwinkle-blue font-roslindale italic'> Features</span>, Built for Finance Recruitment</h3>
                     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-10'>
                         {FeaturesData.map((feature, index) => (
                             <div key={index} className='bg-white p-6 rounded-lg shadow-md flex flex-col items-start text-left'>
