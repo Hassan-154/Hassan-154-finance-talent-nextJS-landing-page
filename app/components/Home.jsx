@@ -19,7 +19,7 @@ function Home() {
                 </div>
             </div>
             <div data-aos="fade-left" className='w-2/2 lg:w-1/2 p-4'>
-                <div className="relative h-[360px] sm:h-[600px] w-auto overflow-hidden">
+                <div className="relative h-[380px] sm:h-[600px] w-auto overflow-hidden">
                     <Image src="/images/home-back.svg" alt='image' height="300" width="300" className="absolute top-0 left-1/2 transform -translate-x-1/2 w-auto sm:h-[560px] object-cover" />
                     <div className="absolute inset-0 flex items-center justify-center">
                         <Image src="/images/Frame 1707479238 (4).png" alt='image' height="700" width="700" className="min-w-[350px] sm:min-w-[570px] h-auto" />
