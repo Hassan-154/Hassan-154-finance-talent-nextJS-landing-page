@@ -19,7 +19,7 @@ function Contact() {
                     alt="image"
                     height={700}
                     width={700}
-                    className="min-w-full min-h-[62vh] sm:min-h-full lg:rounded-[15px]"
+                    className="min-w-full min-h-[58vh] sm:min-h-full lg:rounded-[15px]"
                 />
 
                 <Image

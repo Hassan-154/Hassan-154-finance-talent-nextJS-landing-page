@@ -5,10 +5,14 @@ import HowItWorks from "./components/HowItWorks";
 import Features from "./components/Features";
 import WhatWeDo from "./components/WhatWeDo";
 import Contact from "./components/Contact";
+import Testimonial from "./components/Testimonial";
 
 export default function page() {
   return (
     <main className="scroll-smooth">
+     <section id="">
+        <Testimonial/>
+      </section>
       <section id="home">
         <Home/>
       </section>
