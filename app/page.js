@@ -31,9 +31,9 @@ export default function page() {
       <section id="features">
         <Features />
       </section>
-      {/* <section id="">
+      <section id="">
         <Testimonial />
-      </section> */}
+      </section>
       <section id="contact">
         <Contact />
       </section>
