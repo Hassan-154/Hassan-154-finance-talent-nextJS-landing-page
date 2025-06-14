@@ -21,9 +21,9 @@
       ]
     },
     "more": [
-      { "name": "Contact us", "url": "#" },
-      { "name": "Privacy Policy", "url": "#" },
-      { "name": "Terms & Condition", "url": "#" }
+      { "name": "Contact us", "url": "" },
+      { "name": "Privacy Policy", "url": "" },
+      { "name": "Terms & Condition", "url": "" }
     ],
     "contact": [
       {

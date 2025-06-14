@@ -12,12 +12,12 @@ function HowItWorks() {
                     <h3 className='max-w-[450px] text-[28px] leading-[35px] sm:text-[43px] sm:leading-[49px] text-black font-semibold'>
                         What to <span className='text-periwinkle-blue font-roslindale italic'>Expect</span> When You Join R2C</h3>
                     <div className='flex gap-3'>
-                        <Button title="For Candidates" className="bg-periwinkle-blue text-white rounded-full" />
-                        <Button title="For Recruiters" className="bg-white text-black rounded-full" />
+                        <Button title="For Candidates" className="bg-periwinkle-blue hover:bg-periwinkle-blue-hover text-white rounded-full" />
+                        <Button title="For Recruiters" className="bg-white hover:bg-[#F5F5F5]  text-black rounded-full" />
                     </div>
                 </div>
                 <div>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-10'>
+                    <div data-aos="fade-up" className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-10'>
                         {HowItWorksData.map((item, index) => (
                             <div key={index} className='bg-white p-5 rounded-lg shadow-md relative'>
                                 <Image src={item.image} alt={item.heading} className='mb-4 w-full h-[170px] object-contain z-0 relative' width={300} height={300} />

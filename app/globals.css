@@ -94,7 +94,9 @@ html {
   --font-mono: var(--font-geist-mono);
   --font-roslindale: 'Roslindale';
   --color-periwinkle-blue: #7C86FF;
+  --color-periwinkle-blue-hover: #868FFF;
   --color-slate-light: #E2E8F0;
+  --color-slate-light-hover: #CBD5E1;
   --color-charcoal-blue: #45556C;
   --color-space-blue: #1D293D;
   --color-indigo-blue: #615FFF;

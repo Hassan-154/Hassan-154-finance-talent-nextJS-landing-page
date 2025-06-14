@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import Button from './Button'
+import { IoCheckmark } from 'react-icons/io5'
 
 function Form() {
     const [email, setEmail] = useState('')
@@ -10,11 +11,16 @@ function Form() {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
-        // Here you can add your form submission logic
-        // For example, sending data to an API
+        const formData = {
+            email,
+            role,
+            isGdprChecked,
+            timestamp: new Date().toISOString()
+        }
+
+        console.log(formData)
+
         try {
-            // Add your API call here
-            console.log('Form submitted:', { email, role, isGdprChecked })
         } catch (error) {
             console.error('Error submitting form:', error)
         }
@@ -70,17 +76,17 @@ function Form() {
                                 required
                             />
                             <div
-                                className={`w-5 h-5 border rounded ${isGdprChecked ? "bg-blue-500 border-blue-500" : "border-gray-300"
+                                className={`w-5 h-5 border rounded ${isGdprChecked ? "bg-periwinkle-blue hover:bg-periwinkle-blue-hover border border-periwinkle-blue" : "border-gray-300"
                                     } flex items-center justify-center`}
                             >
-                                {isGdprChecked && <Check className="w-3 h-3 text-white" />}
+                                {isGdprChecked && <IoCheckmark className="w-3 h-3 text-white" />}
                             </div>
                         </div>
                         <span className="ml-2 text-gray-700">Basic GDPR compliance</span>
                     </label>
                 </div>
 
-                <Button title="Join the Waitlist" className="bg-periwinkle-blue text-white rounded-md w-full" />
+                <Button title="Join the Waitlist" className="bg-periwinkle-blue hover:bg-periwinkle-blue-hover text-white rounded-md w-full" />
 
                 <p className="text-center mt-4">No spam, just career-changing stuff</p>
             </form>

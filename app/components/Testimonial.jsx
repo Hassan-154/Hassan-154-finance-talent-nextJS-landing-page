@@ -15,6 +15,11 @@ export default () => {
 
     return (
         <>
+            <div className='text-center py-[35px] px-3 sm:px-4 xl:px-0'>
+                <div className='pb-1'><span>Testimonials</span></div>
+                <h3 className='max-w-[700px] mx-auto text-[26px] leading-[33px] sm:text-[43px] sm:leading-[49px] text-black font-semibold'>
+                    Trusted by<span className='text-periwinkle-blue font-roslindale italic'> Finance </span>Professionals and Recruiters</h3>
+            </div>
             <Swiper
                 modules={[Autoplay]}
                 spaceBetween={13}

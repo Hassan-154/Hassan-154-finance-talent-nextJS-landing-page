@@ -4,8 +4,8 @@ import Form from './Form'
 
 function Contact() {
     return (
-        <div className='lg:h-[65vh] max-w-6xl mx-auto flex flex-col lg:flex-row pt-[30px] sm:mt-[60px] gap-[25px] md:gap-5 bg-indigo-blue rounded-[10px] md:rounded-[15px]'>
-            <div className="lg:w-[44%] text-white flex flex-col gap-2.5 px-4 md:p-13">
+        <div className='lg:h-[65vh] max-w-6xl mx-auto flex flex-col lg:flex-row pt-[30px] lg:pt-0 mt-[45px] sm:mt-[60px] gap-[25px] md:gap-5 bg-indigo-blue rounded-[10px] md:rounded-[15px]'>
+            <div data-aos="fade-right" className="lg:w-[44%] text-white flex flex-col gap-2.5 px-4 md:p-13">
                 <div><span className='text-sm'>FEATURES</span></div>
                 <h3 className="lg:max-w-[400px] text-[28px] leading-[35px] sm:text-[50px] sm:leading-[55px] font-semibold">
                     Be the first to <span className='text-[#77D0FF] font-roslindale italic'>experience</span> R2C.
@@ -34,8 +34,6 @@ function Contact() {
                     <Form />
                 </div>
             </div>
-
-
         </div>
     )
 }

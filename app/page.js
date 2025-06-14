@@ -1,33 +1,43 @@
-import Image from "next/image";
-import NavBar from "./components/Navbar";
+"use client";
+import { useEffect } from "react";
 import Home from "./components/Home";
 import HowItWorks from "./components/HowItWorks";
 import Features from "./components/Features";
 import WhatWeDo from "./components/WhatWeDo";
 import Contact from "./components/Contact";
 import Testimonial from "./components/Testimonial";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function page() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
     <main className="scroll-smooth">
-     <section id="">
-        <Testimonial/>
-      </section>
       <section id="home">
-        <Home/>
+        <Home />
       </section>
       <section id="how-it-works">
-        <HowItWorks/>
+        <HowItWorks />
       </section>
       <section id="resources">
-        <WhatWeDo/>
+        <WhatWeDo />
       </section>
       <section id="features">
-        <Features/>
+        <Features />
+      </section>
+      <section id="">
+        <Testimonial />
       </section>
       <section id="contact">
-        <Contact/>
+        <Contact />
       </section>
+
     </main>
   );
 }

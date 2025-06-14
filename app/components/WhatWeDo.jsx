@@ -13,12 +13,12 @@ function WhatWeDo() {
                     <h3 className='max-w-[420px] text-[28px] leading-[35px] sm:text-[43px] sm:leading-[49px] text-black font-semibold'>
                         We're Here to Help You<span className='text-periwinkle-blue font-roslindale italic'> Connect</span></h3>
                     <div className='flex gap-3'>
-                        <Button title="Join as a Candidate" className="bg-periwinkle-blue text-white rounded-md" />
-                        <Button title="I'm a Recruiter" className="bg-slate-light text-black rounded-md" />
+                        <Button title="Join as a Candidate" className="bg-periwinkle-blue hover:bg-periwinkle-blue-hover text-white rounded-md" />
+                        <Button title="I'm a Recruiter" className="bg-slate-light hover:bg-slate-light-hover text-black rounded-md" />
                     </div>
                 </div>
                 <div className='flex flex-col lg:flex-row gap-10 lg:gap-5 py-[30px] md:py-[60px]'>
-                    <div className='w-full lg:w-[45%]'>
+                    <div data-aos="fade-right" className='w-full lg:w-[45%]'>
                         {WhatWeDoData.map((item, index) => (
                             <div key={index} className={`${index !== WhatWeDoData.length - 1 ? 'pb-5' : ''} ${index !== 0 ? 'opacity-50' : ''}`}>
                                 <div className='pb-2'><span className='text-gray-dark text-[15px] leading-[22px] tracking-[.3px]'>{item.label}</span></div>
@@ -28,7 +28,7 @@ function WhatWeDo() {
                             </div>
                         ))}
                     </div>
-                    <div className="w-full lg:w-[55%] relative">
+                    <div data-aos="fade-left" className="w-full lg:w-[55%] relative">
                         <div className="relative w-full h-full min-h-full">
                             <Image
                                 src="/images/Rectangle 41961.png"
