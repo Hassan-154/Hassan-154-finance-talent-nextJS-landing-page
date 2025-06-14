@@ -18,7 +18,7 @@ export default function page() {
   }, []);
 
   return (
-    <main className="scroll-smooth">
+    <main className="scroll-smooth !overflow-x-hidden">
       <section id="home">
         <Home />
       </section>
