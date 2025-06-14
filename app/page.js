@@ -18,7 +18,7 @@ export default function page() {
   }, []);
 
   return (
-    <main className="scroll-smooth !overflow-x-hidden">
+    <main className="scroll-smooth">
       <section id="home">
         <Home />
       </section>
@@ -31,9 +31,9 @@ export default function page() {
       <section id="features">
         <Features />
       </section>
-      <section id="">
+      {/* <section id="">
         <Testimonial />
-      </section>
+      </section> */}
       <section id="contact">
         <Contact />
       </section>
