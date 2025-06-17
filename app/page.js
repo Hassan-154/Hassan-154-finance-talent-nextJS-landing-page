@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Testimonial from "./components/Testimonial";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import HowItWork from "./components/HowItWork";
 
 export default function page() {
 
@@ -26,8 +27,11 @@ export default function page() {
         <HowItWorks />
       </section>
       <section id="resources">
-        <WhatWeDo />
+        <HowItWork />
       </section>
+      {/* <section id="resources">
+        <WhatWeDo />
+      </section> */}
       <section id="features">
         <Features />
       </section>
@@ -37,7 +41,6 @@ export default function page() {
       <section id="contact">
         <Contact />
       </section>
-
     </main>
   );
 }

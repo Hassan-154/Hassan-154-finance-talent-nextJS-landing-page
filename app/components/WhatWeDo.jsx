@@ -17,6 +17,8 @@ function WhatWeDo() {
                         <Button title="I'm a Recruiter" className="bg-slate-light hover:bg-slate-light-hover text-black rounded-md" />
                     </div>
                 </div>
+
+
                 <div className='flex flex-col lg:flex-row gap-10 lg:gap-5 py-[30px] md:py-[60px]'>
                     <div data-aos="fade-right" className='w-full lg:w-[45%]'>
                         {WhatWeDoData.map((item, index) => (
@@ -28,6 +30,7 @@ function WhatWeDo() {
                             </div>
                         ))}
                     </div>
+
                     <div data-aos="fade-left" className="w-full lg:w-[55%] relative">
                         <div className="relative w-full h-full min-h-full">
                             <Image
@@ -48,6 +51,8 @@ function WhatWeDo() {
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>

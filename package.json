@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "framer-motion": "^12.18.1",
+    "gsap": "^3.12.5",
     "install": "^0.13.0",
     "next": "15.3.3",
     "react": "^19.0.0",
