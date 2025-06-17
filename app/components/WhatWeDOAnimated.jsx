@@ -2,7 +2,7 @@ import "../style/howItwork.css";
 import React, { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import WhatWeDoData from '../constant/WhatWeDoCopy.json'
+import WhatWeDoData from '../constant/WhatWeDo.json'
 import Button from './Button'
 import Image from 'next/image'
 

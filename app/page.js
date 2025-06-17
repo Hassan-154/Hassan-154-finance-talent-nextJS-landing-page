@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import Testimonial from "./components/Testimonial";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import HowItWork from "./components/HowItWork";
+import HowItWork from "./components/WhatWeDOAnimated";
 
 export default function page() {
 
