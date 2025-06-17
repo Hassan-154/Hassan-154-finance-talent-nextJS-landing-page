@@ -42,7 +42,7 @@ function HowItwork() {
     <section className="section_tabs bg-gray-100" style={{ zIndex: 2 }} ref={sectionRef}>
       <div className="tabs_height">
         <div className="tabs_sticky-wrapper h-[100vh]">
-          <div className='bg-gray-100 pt-[25px] px-3 sm:px-4 xl:px-0'>
+          <div className='bg-gray-100 pt-[70px] px-3 sm:px-4 xl:px-0'>
             <div className='max-w-6xl mx-auto'>
               <div className='pb-1'><span>What We Do</span></div>
               <div className='flex flex-col gap-5 sm:flex-row justify-between sm:items-end'>

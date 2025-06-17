@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Home() {
     return (
-        <div className='lg:h-[80vh] pb-[15px] lg:pb-0 max-w-6xl mx-auto flex flex-col lg:flex-row lg:gap-[10px] items-center justify-center px-3 sm:px-4 xl:px-0'>
+        <div className='lg:h-[90vh] pb-[15px] lg:pb-0 max-w-6xl mx-auto flex flex-col lg:flex-row lg:gap-[10px] items-center justify-center px-3 sm:px-4 xl:px-0'>
             <div data-aos="fade-right" className='w-2/2 lg:w-1/2 flex flex-col gap-[20px]'>
                 <h1 className='text-[42px] leading-[50px] sm:text-[60px] sm:leading-[67px] text-black font-medium'>Connecting <br></br> <span className='text-periwinkle-blue font-roslindale italic'>Finance</span> Talent with Hiring Power</h1>
                 <p className='max-w-[440px]'>A recruitment platform built for accounting & finance professionals and the recruiters who need them.</p>
