@@ -71,34 +71,36 @@ function HowItwork() {
                 </div>
 
                 <div className="w-full lg:w-[55%] relative">
-                  <div className="relative w-full h-full min-h-full">
-                    <Image
-                      src="/images/Rectangle 41961.png"
-                      alt="image"
-                      height={700}
-                      width={700}
-                      className="h-full min-h-[400px] max-h-[400px] sm:min-h-[360px] md:max-h-[410px] md:min-h-[410px] lg:min-h-[470px] rounded-[20px] w-full object-cover"
-                    />
-                    <div className="absolute inset-0 flex items-center p-1.5 sm:p-2 justify-center text-white">
-                      {WhatWeDoData[0].images.map((image, index) => (
-                        <div
-                          key={index}
-                          className="tabs_image w-full h-full min-h-full min-w-fill"
-                          style={{
-                            opacity: index === activeIndex ? 1 : 0,
-                            position: 'absolute',
-                            transition: 'opacity 0.3s ease'
-                          }}
-                        >
-                          <Image
-                            src={image.image}
-                            alt={`Section ${index + 1}`}
-                            height={700}
-                            width={700}
-                            className="h-full min-h-[400px] max-h-[400px] sm:min-h-[360px] md:max-h-[410px] md:min-h-[410px] lg:min-h-[470px] rounded-[20px] w-full  p-2"
-                          />
-                        </div>
-                      ))}
+                  <div key={activeIndex} className="relative w-full h-full min-h-full">
+                    <div data-aos="fade-up" className="w-full h-full">
+                      <Image
+                        src="/images/Rectangle 41961.png"
+                        alt="image"
+                        height={700}
+                        width={700}
+                        className="h-full min-h-[330px] max-h-[330px] sm:min-h-[350px] sm:max-h-[350px]  md:max-h-[410px] md:min-h-[410px] lg:min-h-[470px] rounded-[20px] w-full object-cover"
+                      />
+                      <div className="absolute inset-0 flex items-center p-1.5 sm:p-2 justify-center text-white">
+                        {WhatWeDoData[0].images.map((image, index) => (
+                          <div
+                            key={index}
+                            className="tabs_image w-full h-full min-h-full min-w-fill"
+                            style={{
+                              opacity: index === activeIndex ? 1 : 0,
+                              position: 'absolute',
+                              transition: 'opacity 0.3s ease'
+                            }}
+                          >
+                            <Image
+                              src={image.image}
+                              alt={`Section ${index + 1}`}
+                              height={700}
+                              width={700}
+                              className="h-full min-h-[330px] max-h-[330px] sm:min-h-[350px] sm:max-h-[350px] md:max-h-[410px] md:min-h-[410px] lg:min-h-[470px] rounded-[20px] w-full  p-2"
+                            />
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>
